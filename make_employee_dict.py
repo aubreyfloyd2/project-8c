@@ -8,7 +8,7 @@
 class Employee:
     """Employee private data information"""
     def __init__(self, name, id_number, salary, email_address):
-        """Initialize data members with argument values"""
+        """Initializes data members with argument values"""
         self._name = name
         self._id_number = id_number
         self._salary = salary
